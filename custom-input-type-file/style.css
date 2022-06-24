@@ -1,0 +1,15 @@
+.customFile {
+    border: 5px dashed #000;
+    border-radius: 50px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.customFile::-webkit-file-upload-button{
+    background: rgb(1, 8, 34);
+    color: #fff;    
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
